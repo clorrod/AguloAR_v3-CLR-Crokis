@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Agulo_AR_(2)</string>
+
+    <!-- COORDENADAS -->
+    <string-array name="longitudes">
+        <item>28.186358</item><!-- Cueva aborigen -->
+        <item>28.186092</item><!--El chorro - La vica -->
+        <item>28.188763</item><!-- Hogueras de San Marcos -->
+        <item>28.188842</item><!-- Casa pintor Aguiar -->
+        <item>28.188880</item> <!-- Los Piques -->
+        <item>28.189411</item> <!-- Transportador -->
+        <item>28.189411</item><!-- El Pescante -->
+        <item>28.188981</item><!-- Campo de fútbol -  Antiguas plataneras  (hay dos ubicaciones posibles)-->
+    </string-array>
+
+    <string-array name="latitudes">
+        <item>-17.195652</item><!-- Cueva aborigen -->
+        <item>-17.194368</item><!--El chorro - La vica -->
+        <item>-17.194112</item><!-- Hogueras de San Marcos -->
+        <item>-17.193373</item><!-- Casa pintor Aguiar -->
+        <item>-17.195357</item> <!-- Los Piques -->
+        <item>-17.194767</item> <!-- Transportador -->
+        <item>-17.194767</item><!-- El Pescante -->
+        <item>-17.195858</item><!-- Campo de fútbol -  Antiguas plataneras -->
+    </string-array>
+
+    <!-- NOMBRES -->
+    <string-array name="titulos_paradas">
+        <item>Cueva aborigen</item>
+        <item>El Chorro - La Vica</item>
+        <item>Hogueras de San Marcos</item>
+        <item>Casa del pintor Aguiar</item>
+        <item>Los Piques</item>
+        <item>Transportador</item>
+        <item>El Pescante</item>
+        <item>Campo de fútbol - Antiguas plataneras</item>
+    </string-array>
+    <!-- Cueva aborigen -->
+    <string name="cueva_aborigen_longitud">28.186358</string>
+    <string name="cueva_aborigen_latitud">-17.195652</string>
+
+    <!--El chorro - La vica -->
+    <string name="el_chorro_longitud">28.186092</string>
+    <string name="el_chorro_latitud">-17.194368</string>
+
+    <!--Acequia-->
+
+    <!-- Hogueras de San Marcos -->
+    <string name="hogueras_lonngitud">28.188763</string>
+    <string name="hogueras_latitud">-17.194112</string>
+
+    <!-- Casa pintor Aguiar -->
+    <string name="casa_pintor_aguiar_longitud">29.188842</string>
+    <string name="casa_pintor_aguiar_latitud">-17.193373</string>
+
+    <!-- Los Piques -->
+
+    <!-- El Pescante -->
+    <string name="pescante_longitud">28.189411</string>
+    <string name="pescante_latitud">-17.194767</string>
+
+    <!-- Campo de fútbol -  Antiguas plataneras -->
+    <string name="campo_futbol_longitud">28.188981</string>
+    <string name="campo_futbol_latitud">-17.195858</string>
+
+    <!-- Fillichristi-->
+
+    <!-- Botones de AR -->
+    <string name="capturar">Capturar</string>
+    <string name="atras">Atrás</string>
+    <string name="mas_info">Más info</string>
+
+    <!-- Idiomas -->
+    <string name="espanol">Español</string>
+    <string name="ingles">English</string>
+    <string name="aleman">Deutsch</string>
+
+    <!-- Página principal -->
+    <string name="visitas">Visitas</string>
+    <string name="informciónRec">Información recorridos</string>
+    <string name="cambioClim">Agulo y cambio climático</string>
+    <string name="appFunc">App y funciones</string>
+
+    <!-- Página visitas -->
+    <string name="iniciarVisitas">Iniciar visita</string>
+
+    <!-- Cuadro diálogo -->
+    <string name="activaAR">Activa la realidad aumentada</string>
+
+    <!-- Página ficha punto -->
+    <string name="loreimpsum">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+        The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+    </string>
+
+    <!-- Página info recorridos -->
+    <string name="mapa_lugares_interes">Mapa lugares de interés</string>
+    <string name="personas_destacadas">Personas destacadas</string>
+    <string name="arquitectura">Arquitectura</string>
+    <string name="tradiciones">Tradiciones</string>
+    <string name="historia_aborigen">Historia aborigen</string>
+
+</resources>

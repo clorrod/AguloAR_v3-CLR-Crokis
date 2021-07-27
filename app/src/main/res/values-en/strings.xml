@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Agulo_AR_(2)</string>
+    <!-- Página principal -->
+    <string name="visitas">Visits</string>
+    <string name="informciónRec">Route info</string>
+    <string name="cambioClim">Agulo and climate change</string>
+    <string name="appFunc">App and functions</string>
+
+    <!-- Página visitas -->
+    <string name="iniciarVisitas">Start visit</string>
+
+    <!-- Cuadro diálogo -->
+    <string name="activaAR">Activate the augmented reality</string>
+</resources>

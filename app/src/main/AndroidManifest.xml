@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agulo.agulo_ar_2">
+    <!-- Para la navegación -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Para la realidad aumentada -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name=".activities.ARActivityVideoTarget"></activity>
+        <activity android:name=".activities.ARActivityVideo" />
+        <activity android:name=".activities.ARActivityTarget" /> <!-- HERE Positioning Service definition. -->
+        <service
+            android:name="com.here.services.internal.LocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" />
+
+        <activity android:name=".activities.InfoRecorridosActivity" />
+        <activity android:name=".activities.FichaPuntoActivity" />
+        <activity android:name=".activities.PrincipalActivity" />
+        <activity android:name=".activities.IdiomasActivity" />
+        <activity android:name=".activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.VisitasActivity" />
+        <activity android:name=".activities.ArActivity" />
+        <activity android:name=".activities.MapaActivity" />
+        <activity android:name=".utils.voicePackagesActivity" />
+        <activity android:name=".utils.voiceSkinsActivity" /> <!-- Para la navegación -->
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="fSejbvfnpmALg0QOv3bd" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="0KOwoEJXICJweDdS6tDC3A" />
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="iqNLsszKfQrk8IfCA8LJHfDGYsgN2d6uu1vzG3w14hscNCpwdpFC7yfF+pb9s4LBKlkdcuQ6OcizW8GH22vG5g80H0edc3RKL/ds+tsxPYydtI/upoh1aXaHgtF+mXDWHG0nm0eD/UInWjY1rLJaKYBI67IXDL/r1whukYQLNDKsUCU8CjI6Sslr9EBlCZrZFkOFkoYSaw9RQG5HxV/ve1wep2cUBQNEsXWYNx2rOJ8Q8jTdO1F+N0bQn0Z3gY4dMfoN7zXL55LRWogESpsK6YzYEvzz+AjkRBXwaMflqBzJeiXsB/t/qZEwadI1bfOc8uuB2UfdpUZ4ughwFUnQKt7QjvMuE00fd+r8ITCTC1rErykBdy1E7/nQLpqmEPB528320a9okT3UZUbj6ediadmtH6x0VqtlTzTxeTbGTUnbC5+SEzSGugjUmsSwhblYqa1sc1ryg1yRUcu1O239lv/TkKeRRN/s7GPyUtBcjSBuPShIVdho2Osd5yMfHBdWffVINMAw5PpverffZYaUyIgukwgAzf6tkAMQ7700xYtX6MMbnSZXw5NGzyOpf78vlrsyfN5WxgcgKp623AYJ/lIU9nl2tNm03OFtCr/aNNd4opQapLTfs7o9y3UVr7XYr5pWkro5CZfzmpPYp6GPYMZi+TFKLuXSlnl5WXDVH1Q=" /> <!-- Para la realidad aumentada -->
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+    </application>
+
+</manifest>
